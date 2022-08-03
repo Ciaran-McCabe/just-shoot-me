@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Inconsolata;
+    font-family: 'Inconsolata', sans-serif;
     font-weight: 700;
     color: #2b6777;
 }
@@ -23,3 +23,59 @@ h2 {
     font-family: 'Inconsolata', sans-serif;
 }
 
+/* menu tabs */
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: auto;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+    /* hero animation */
+    animation-name: hero-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials>li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 150%;
+    padding: 5%;
+    margin: 1%;
+    color: #a299ce;
+}
