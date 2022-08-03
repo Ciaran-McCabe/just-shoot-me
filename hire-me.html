@@ -20,16 +20,34 @@
                 alt="company logo of lens aperature and text just shoot me" width=" 300" height="150">
         </a>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+            <ul id="menu">
                 <li><a href="hire-me.html">Hire me</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
-
+    <!--Contact form-->
     <section>
-
+        <form>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" name="fullname" id="fullname" placeholder="Full Name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email" placeholder="e-mail address"><br>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" name="phone" id="phone" placeholder="Phone number"><br>
+            <p>Please click on type of query:</p><br>
+            <label for="portrait">Portrait</label>
+            <input type="radio" name="portrait" id="portrait">
+            <label for="aerial">Aerial</label>
+            <input type="radio" name="aerial" id="aerial">
+            <label for="event">Event</label>
+            <input type="radio" name="event" id="event">
+            <label for="street">Street</label>
+            <input type="radio" name="street" id="street">
+            <label for="other">Other</label>
+            <input type="radio" name="other" id="other">
+        </form>
     </section>
 
     <!--social media links-->

@@ -9,7 +9,7 @@
 body {
     font-family: 'Inconsolata', sans-serif;
     font-weight: 700;
-    color: #2b6777;
+    color: #6c6c5c;
 }
 
 /* headings and logo */
@@ -24,15 +24,28 @@ h2 {
 }
 
 /* menu tabs */
+
+header {
+    height: 150px;
+    width: 100%;
+    padding: 0;
+}
+
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #6c6c5c;
 }
 
 
 #menu li {
     float: right;
     margin-right: 30px;
+    margin-bottom: 5px;
     list-style-type: none;
 }
 
@@ -42,10 +55,11 @@ h2 {
     height: 600px;
     width: auto;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 
     /* hero animation */
     animation-name: hero-zoom;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-fill-mode: backwards;
 }
 
@@ -77,5 +91,10 @@ h2 {
     font-size: 150%;
     padding: 5%;
     margin: 1%;
-    color: #a299ce;
+    color: #6c6c5c;
+}
+
+#fullname {
+    border: 1px solid #c06c3a;
+    border-radius: 5%;
 }
