@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Karla:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Inconsolata;
+    font-weight: 700;
+    color: #2b6777;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Inconsolata', sans-serif;
+}
+
