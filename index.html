@@ -14,25 +14,31 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img src="assets/images/logo_transparent_background.png"
-                alt="company logo of lens aperature and text just shoot me" width="300" height="150">
-        </a>
-        <nav>
-            <ul id="menu">
-                <li><a href="hire-me.html">Hire me</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="top">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo_transparent_background.png"
+                        alt="company logo of lens aperature and text just shoot me" width="300" height="150">
+                </a>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="gallery.html">Gallery </a></li>
+                        <li><a href="hire-me.html">Hire me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section id="hero-outer">
         <!--hero image-->
         <div id="hero-image"></div>
     </section>
-    <section>
+    <section id="main-description">
         <h1>We don't just capture moments - we capture memories!</h1>
         <br>
         <div id="what-we-do-left">
@@ -48,25 +54,37 @@
                 Clients have ranged from Dominos Pizza to Katy Perry, Facebook Head Office to Electric Picnic,
                 weddings to your local estate agent.</p>
         </div>
-    </section>
-    <!--social media links-->
-    <footer class="footer">
-        <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (openes in a new tab)"> <i
-                        class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (openes in a new tab)"> <i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (openes in a new tab)"> <i
-                        class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (openes in a new tab)"> <i class="fa-brands fa-youtube"></i></a>
-            </li>
-        </ul>
-    </footer>
+        <div id="about-us-bottom">
+            <h2>About Us</h2>
+            <p> srhgrerg edrg hrigh ergiuerhyg erui erugeirgherguer druih erugwer ger gerug ergerug eg gggThe
+                align-items property defines the default behavior for how items are laid out along the cross axis
+                (perpendicular to the main axis).
 
+                Imagine a horizontal flexbox layout. That horizontal flow is the main axis, so align-items is the
+                alignment opposite that, on the vertical axis. Bear in mind that changes when the main axis changes, and
+                the cross axis changes with it.
+
+                You can think of align-items as the justify-content version for the cross-axis (perpendicular to the
+                main-axis).</p>
+        </div>
+    </section>
+
+
+    <!--social media links-->
+    <footer class="row">
+        <div class="column"><a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="column"><a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"> <i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="column"><a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="column"><a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"> <i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
 
     <!--font awesome script-->
 

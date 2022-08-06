@@ -17,38 +17,53 @@ body {
 h1 {
     font-family: 'Karla', sans-serif;
     text-transform: uppercase;
+    margin-top: 25px;
+    font-size: xx-large;
 }
 
 h2 {
     font-family: 'Inconsolata', sans-serif;
 }
 
-/* menu tabs */
 
-header {
-    height: 150px;
-    width: 100%;
+.header {
+    position: relative;
+    margin: 0;
     padding: 0;
 }
 
-#menu {
+.top {
+    height: 20%;
+}
+
+.logo {
+    height: 100%;
+    display: inline;
+}
+
+.nav {
+    clear: both;
+    float: right;
+    margin-top: 120px;
+    margin-right: 50px;
     font-size: 130%;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.menu {
+    display: inline;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
 }
 
 a {
     text-decoration: none;
     color: #6c6c5c;
 }
-
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-    margin-bottom: 5px;
-    list-style-type: none;
-}
-
 /* hero image */
 
 #hero-image {
@@ -57,7 +72,7 @@ a {
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
 
-    /* hero animation */
+/* hero animation */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: backwards;
@@ -81,45 +96,45 @@ a {
 
 #what-we-do-left {
     width: 500px;
-    height: 600px;
+    height: 100%;
     float: left;
-    margin: 50px;
+    margin: 60px 50px;
 }
 
 #clients-right {
     width: 500px;
-    height: 600px;
+    height: 100%;
     float: right;
-    margin: 50px;
+    margin: 60px 50px;
 }
 
-.footer {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/ 
-    height: 150px;
-    background: orange;
-}
-
-.footer ul {
-    text-align: center;
-    list-style: none;
-} 
-
- .footer>li {
-    display: inline;
-} 
-
-.footer i {
-    font-size: 150%;
-    padding: 5%;
-    margin: 1%;
-    color: #6c6c5c;
+#about-us-bottom {
+    position: relative;
+    height: 100%;
     float: left;
+    margin: 10px 50px;
 }
 
+.column {
+    float: left;
+    height: 30px;
+    width: 25%;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main-description {
+    height: 100%;
+}
+
+/* form styling */
 #fullname {
     border: 1px solid #c06c3a;
     border-radius: 5%;
@@ -138,7 +153,7 @@ a {
 #form {
     margin-left: 33%;
     margin-top: 200px;
-} 
+}
 
 ::placeholder {
     color: gray;
@@ -149,6 +164,7 @@ h1 {
     text-align: center;
 }
 
+/* gallery styling */
 #photos {
     column-count: 3;
     column-gap: 0;
