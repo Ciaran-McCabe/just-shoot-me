@@ -94,6 +94,10 @@ a {
     overflow: hidden;
 }
 
+#main-description {
+    height: 100%;
+}
+
 #what-we-do-left {
     width: 500px;
     height: 100%;
@@ -122,16 +126,14 @@ a {
     text-align: center;
     line-height: 150px;
     font-weight: bold;
+    font-size: 130%;
+    
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
-
-#main-description {
-    height: 100%;
 }
 
 /* form styling */
